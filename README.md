@@ -1,131 +1,215 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# KnowHub 🌍
 
-Welcome Ntoriaana Kouka,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
-
-### Connecting your Mongo database
-
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**June 18, 2024,** Add Mongo back into template
-
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
-
-**May 28 2024:** Fix Mongo and Links installs
-
-**April 26 2024:** Update node version to 16
-
-**September 20 2023:** Update Python version to 3.9.17.
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+Welcome to the **KnowHub**! This project is a geography-based quiz game where players can test their knowledge of capital cities that most people get confused. Below is the detailed documentation for the project.
 
 ---
 
-Happy coding!
+## Visit the Deployed Site
+
+[Click here to view the Quiz Game](https://github.com/Ntoriana/KnowHub.git)
+
+---
+
+## Contents
+
+- [User Experience](#user-experience)
+  - [User Stories](#user-stories)
+- [Design](#design)
+  - [Colour Scheme](#colour-scheme)
+  - [Typography](#typography)
+  - [Imagery](#imagery)
+  - [Wireframes](#wireframes)
+  - [Features](#features)
+    - [The Home Page](#the-home-page)
+    - [The Game Page](#the-game-page)
+    - [The End Score Page](#the-end-score-page)
+    - [Future Implementations](#future-implementations)
+  - [Accessibility](#accessibility)
+- [Technologies Used](#technologies-used)
+  - [Languages Used](#languages-used)
+  - [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+- [Deployment & Local Development](#deployment--local-development)
+  - [Deployment](#deployment)
+  - [Local Development](#local-development)
+    - [How to Fork](#how-to-fork)
+    - [How to Clone](#how-to-clone)
+- [Testing](#testing)
+  - [Solved Bugs](#solved-bugs)
+  - [Known Bugs](#known-bugs)
+- [Credits](#credits)
+  - [Code Used](#code-used)
+  - [Content](#content)
+  - [Media](#media)
+  - [Acknowledgments](#acknowledgments)
+
+---
+
+## User Experience
+
+### User Stories
+
+- As a player, I want to test my knowledge of world geography in an interactive and fun way.
+- As a new user, I want clear instructions to play the quiz game.
+- As a returning user, I want to see my score to track progress.
+- As an accessibility-conscious user, I want the game to be easy to navigate with assistive technologies.
+
+---
+
+## Design
+
+### Colour Scheme
+
+- The app uses a color scheme inspired by geography themes, including:
+  - **Background Color**: A world map image for relevance to geography.
+  - **Primary Colors**: Shades of blue for buttons and navigation.
+  - **Accent Colors**: Green and white for text and highlights.
+
+---
+
+### Typography
+
+- Fonts Used:
+  - **Heading Font**: [Roboto](https://fonts.google.com/specimen/Roboto), a clean and modern sans-serif font.
+  - **Body Font**: [Open Sans](https://fonts.google.com/specimen/Open+Sans) for readability.
+- All fonts were sourced from [Google Fonts](https://fonts.google.com/).
+
+```css
+/* Example typography from app.css */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+```
+### Imagery
+
+- The app's background image features a world map to complement the quiz's theme.
+
+![Background Image](./bg1.avif)
+
+---
+
+### Wireframes
+
+- **Home Page Wireframe**  
+  ![Home Page Wireframe](./images/1-Homepage.png)
+
+- **Game Page Wireframe**  
+  ![Game Page Wireframe](./images/2-QuizPage.png)
+
+- **End Score Wireframe**  
+  ![End Score Wireframe](./images/3-Endpage.png)
+
+
+  ### Features
+
+#### The Home Page
+
+- A welcoming screen with:
+  - A Quiz Start button to begin the quiz.
+
+
+![Home Page Screenshot](./images/Home.png)
+
+#### The Game Page
+
+- Displays a random geography-related question.
+- Multiple-choice answers are shown as buttons.
+- Tracks and displays the current question number and score.
+
+![Game Page Screenshot](./images/Quiz.png)
+
+#### The End Score Page
+
+- Displays the player's total score.
+- Includes a "Restart Quiz" button to restart the quiz.
+
+![End Score Page Screenshot](./images/Score.png)
+
+
+### Future Implementations
+
+- Add a timer to each question to increase challenge.
+- Include more question categories, such as history or science.
+- Add a leaderboard to display top players.
+
+### Accessibility
+
+- The app uses semantic HTML to ensure screen readers can navigate effectively.
+- Button labels are descriptive for users relying on assistive technologies.
+- Text has a high contrast ratio against the background for readability.
+
+## Technologies Used
+
+### Languages Used
+
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
+### Frameworks, Libraries & Programs Used
+
+- [Google Fonts](https://fonts.google.com/) for typography.
+- [Font Awesome](https://fontawesome.com/) for icons.
+- [Git](https://git-scm.com/) for version control.
+- [GitHub Pages](https://pages.github.com/) for deployment.
+- [Wireframe.cc](https://wireframe.cc/) for wireframes.
+
+
+## Deployment & Local Development
+
+### Deployment
+
+The site is deployed using [GitHub Pages](https://pages.github.com/). Visit the live project [here](https://github.com/Ntoriana/KnowHub.git).
+
+### Local Development
+
+#### How to Fork
+
+- Navigate to the [GitHub repository](https://github.com/Ntoriana/KnowHub.git).
+- Click the **Fork** button in the top right corner.
+
+#### How to Clone
+
+- Copy the repository URL: `git@github.com:Ntoriana/KnowHub.git`.
+- Open your terminal and run:
+
+```bash
+git clone git@github.com:Ntoriana/KnowHub.git
+
+```
+
+## Testing
+
+### Solved Bugs
+
+- Fixed an issue where incorrect answers would not update the score.
+- Adjusted layout to ensure responsiveness on smaller devices.
+
+### Known Bugs
+
+- Occasionally, the "Play Again" button does not reset the score and does not exist for now. This will be fixed in future updates.
+
+---
+
+## Credits
+
+### Code Used
+
+- Used responsive button styles from [CSS-Tricks](https://css-tricks.com/).
+
+### Content
+
+- All quiz questions were sourced from [Open Trivia Database](https://opentdb.com/).
+
+### Media
+
+- Background image sourced from [Unsplash](https://unsplash.com/).
+
+### Acknowledgments
+
+- Special thanks to my mentor, Rory Patrick Sheridan, for guidance on this project.
+
+

@@ -40,7 +40,7 @@ const questions = [
       topic: "Geography",
       question: "What is the capital city of SouthAfrica?",
       possibleAnswers: ["Johannesburg", "Durban", "Cape Town"],
-      correctAnswer: "Brasilia",
+      correctAnswer: "Cape Town",
     },
     {
       topic: "Geography",

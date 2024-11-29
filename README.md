@@ -6,7 +6,7 @@ Welcome to the **KnowHub**! This project is a geography-based quiz game where pl
 
 ## Visit the Deployed Site
 
-[Click here to view the Quiz Game](https://github.com/Ntoriana/KnowHub.git)
+[Click here to view the Quiz Game](https://ntoriana.github.io/KnowHub/)
 
 ---
 
@@ -74,7 +74,7 @@ Welcome to the **KnowHub**! This project is a geography-based quiz game where pl
 - All fonts were sourced from [Google Fonts](https://fonts.google.com/).
 
 ```css
-/* Example typography from app.css */
+/* Example typography from apps.css */
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -87,7 +87,8 @@ h1, h2, h3 {
 
 - The app's background image features a world map to complement the quiz's theme.
 
-![Background Image](./bg1.avif)
+  
+![Background Image](./images/bg1.avif)
 
 ---
 
@@ -162,7 +163,7 @@ h1, h2, h3 {
 
 ### Deployment
 
-The site is deployed using [GitHub Pages](https://pages.github.com/). Visit the live project [here](https://github.com/Ntoriana/KnowHub.git).
+The site is deployed using [GitHub Pages](https://pages.github.com/). Visit the live project [here](https://ntoriana.github.io/KnowHub/).
 
 ### Local Development
 
